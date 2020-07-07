@@ -42,7 +42,7 @@ a .to-top	{text-decoration: none;}
 
 .smaller 	{font-size: .8em; font-weight: normal;}
 .contact	{width:300px; float:left;}
-	
+#email		{width:90%; margin: 24px auto;}	
 		.nav ul {
 		  list-style: none;
 		  background-color: #fff;
