@@ -1,0 +1,95 @@
+/* CSS Document */
+
+	body {margin:0; padding: 0; border:0; font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";}
+	#content	{margin: 24px; font-size: 1em; }
+	#header, #footer {
+		height: 200px;
+		background-image: url(fences.jpg);
+		background-repeat: none;
+		background-size: cover;
+		margin: -2px 0 2px 0; 
+		padding:0;
+	}
+
+#footer 	{height: 120px; margin-bottom: -20px;}
+
+	.table-header 	{font-size: .9em;text-align: center; background: #48b; color: #fff;}
+	.text-right		{text-align: right;}
+
+			
+	#logo  {margin: 20px 0 0 20px; width:130px; float:left}
+	#logo img {width: 130px; height:130px}
+	#name {margin: 64px 0 0 10px; float:left;}	
+	#name img {width: 326px;}
+	#deed-table, #doc-table	{margin: 18px auto; max-width: 1020px; min-width: 600px; font-size: .9em; padding: 0px 18px;}
+	
+	@media screen and (max-width: 510px) {
+			
+	#logo  {margin: 20px 0 0 20px; width:100px; float:left}
+	#logo img {width: 100px; height:100px}
+	#name {margin: 64px 0 0 10px; float:left;}	
+		#name img {width: 240px;}}
+			
+.to-top		{color:darkblue; text-align: right; margin: 18px;}			
+.history	{padding:24px 48px}		
+	.header-info	{font-size: 16px; color: white;width: 100%; position: absolute; top:176px; background-color: #003366; opacity:.6; text-align: right; padding: 4px}
+	
+	h4 {margin-block-end: -12px;  margin-block-start: 24px;}
+	div.section  {border-bottom: 2px #ccc solid; margin-bottom:36px;}
+
+	.doc-date, .doc-link, .doc-issue, .doc-note	{font-size: .8em;} 
+.smaller 	{font-size: .8em; font-weight: normal;}
+	
+		.nav ul {
+		  list-style: none;
+		  background-color: #fff;
+		  text-align: left;
+		  padding: 0;
+		  margin: 0 0 0 24px;
+		}
+		.nav li {
+		  font-family: 'Ariel', sans-serif;
+		  font-size: 1em;
+		  line-height: 32px;
+		  height: 32px;
+		  border-bottom: 1px solid #333;
+		}
+
+		.nav a {
+		  text-decoration: none;
+		  color: #333;
+		  display: block;
+		  transition: .3s background-color;
+			text-align: center;
+		}
+
+		.nav a:hover {
+		  background-color: #119ADB;
+			color: #fff;
+		}
+
+		.nav a.active {
+		  color: #000;
+			text-decoration: underline;
+		  cursor: default;
+		}
+
+		@media screen and (min-width: 510px) {
+			
+			
+		  .nav li {
+			width: 120px;
+			border-bottom: none;
+			height: 50px;
+			line-height: 50px;
+			font-size: 1em;
+		  }
+
+		  /* Option 1 - Display Inline */
+		  .nav li {
+			display: inline-block;
+			margin-right: -4px;
+		  }
+	}
+	
+	
