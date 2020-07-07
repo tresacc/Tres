@@ -30,7 +30,8 @@
 	#name {margin: 64px 0 0 10px; float:left;}	
 		#name img {width: 240px;}}
 			
-.to-top		{color:darkblue; text-align: right; margin: 18px;}			
+.to-top		{color:darkblue; text-align: right; margin: 18px;}		
+a .to-top	{text-decoration: none;}
 .history	{padding:24px 48px}		
 	.header-info	{font-size: 16px; color: white;width: 100%; position: absolute; top:176px; background-color: #003366; opacity:.6; text-align: right; padding: 4px}
 	
@@ -38,7 +39,9 @@
 	div.section  {border-bottom: 2px #ccc solid; margin-bottom:36px;}
 
 	.doc-date, .doc-link, .doc-issue, .doc-note	{font-size: .8em;} 
+
 .smaller 	{font-size: .8em; font-weight: normal;}
+.contact	{width:300px; float:left;}
 	
 		.nav ul {
 		  list-style: none;
