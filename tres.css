@@ -31,7 +31,7 @@
 		#name img {width: 240px;}}
 			
 .to-top		{color:darkblue; text-align: right; margin: 18px;}		
-div.to-top	a {text-decoration: none;}
+.to-top	a 	{text-decoration: none;}
 .history	{padding:24px 48px}		
 	.header-info	{font-size: 16px; color: white;width: 100%; position: absolute; top:176px; background-color: #003366; opacity:.6; text-align: right; padding: 4px}
 	
