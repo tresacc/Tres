@@ -41,7 +41,7 @@ a .to-top	{text-decoration: none;}
 	.doc-date, .doc-link, .doc-issue, .doc-note	{font-size: .8em;} 
 
 .smaller 	{font-size: .8em; font-weight: normal;}
-.contact	{width:300px; float:left;}
+.contact	{width:45%; float:left; text-align:center}
 #email		{width:90%; margin: 24px auto;}	
 		.nav ul {
 		  list-style: none;
